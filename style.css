@@ -26,9 +26,16 @@ img {
 #grid {
   display: grid;
   grid-template-columns: 145px 1fr;
+  grid-template-rows: 300px 300px;
 }
-#body {
+#schedule {
   padding: 15px;
+}
+#notice {
+  padding: 15px;
+  grid-column-start: 2;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
 }
 @media (max-width: 850px) {
   #grid {
